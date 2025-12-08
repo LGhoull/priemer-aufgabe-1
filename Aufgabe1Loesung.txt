@@ -1,0 +1,18 @@
+a)
+Es sind fast alle Werte bei TARGET_BETRUG „nein“. Nur sehr wenige Zeilen enthalten „ja“. Folge: Ein Modell könnte sehr leicht „immer nein“ vorhersagen und trotzdem eine hohe Genauigkeit erreichen, aber die Betrugsfälle nicht erkennen.
+
+b)
+Dahinter verbergen sich die Artikelnummern der bestellten Artikel. Die Darstellungsform kann ungünstig sein, da bei mehr als 10 bestellten Artikeln nicht alle Artikel erfasst werden. Außerdem sind die Felder ANUMMER_02-ANUMMER_10 größtenteils leer, was das Modell stören könnte.
+
+c)
+Benutzte Software: KNIME
+
+1. Decision Tree Leaner (Quality Measure Gini index)
+
+TARGET_BETRUG \prediction TARGET_BETRUG	nein	ja	
+nein					5466	193
+ja					300	36
+
+Accuracy	91.776%
+Precision	15.720%
+Recall		09.333%
