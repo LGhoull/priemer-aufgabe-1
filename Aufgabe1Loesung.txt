@@ -36,3 +36,7 @@ ja					333	3
 Accuracy	94.44%
 Precision	50%
 Recall		0.9%
+
+d)
+Der Decision Tree hat am besten abgeschnitten und wird daher im Folgenden weiterverwendet.
+
