@@ -1,6 +1,6 @@
 a)
 Es sind fast alle Werte bei TARGET_BETRUG „nein“. Nur sehr wenige Zeilen enthalten „ja“. Folge: Ein Modell könnte sehr leicht „immer nein“ vorhersagen und trotzdem eine hohe Genauigkeit erreichen, aber die Betrugsfälle nicht erkennen.
-
+Von den 30.000 Traningsdatensätzen haben 1746 Sätze TARGET_BETRUG "ja". Dies sind 5,92%.
 b)
 Dahinter verbergen sich die Artikelnummern der bestellten Artikel. Die Darstellungsform kann ungünstig sein, da bei mehr als 10 bestellten Artikeln nicht alle Artikel erfasst werden. Außerdem sind die Felder ANUMMER_02-ANUMMER_10 größtenteils leer, was das Modell stören könnte.
 
