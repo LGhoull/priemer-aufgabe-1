@@ -16,3 +16,13 @@ ja					300	36
 Accuracy	91.776%
 Precision	15.720%
 Recall		09.333%
+
+2. Logistic Regression Learner
+
+TARGET_BETRUG \prediction TARGET_BETRUG	nein	ja	
+nein					5666	0
+ja					336	0
+
+Accuracy	94.402%
+Precision	0%
+Recall		0%
