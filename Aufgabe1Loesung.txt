@@ -26,3 +26,13 @@ ja					336	0
 Accuracy	94.402%
 Precision	0%
 Recall		0%
+
+3. Naive Bayes Learner
+
+TARGET_BETRUG \prediction TARGET_BETRUG	nein	ja	
+nein					5663	3
+ja					333	3
+
+Accuracy	94.44%
+Precision	50%
+Recall		0.9%
